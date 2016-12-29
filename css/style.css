@@ -1,11 +1,1 @@
-body {
-  font-size: 250%;
-}
 
-body > div {
-  font-size: 2em;
-}
-
-body > div > div {
-  font-size: 0.2em;
-}
