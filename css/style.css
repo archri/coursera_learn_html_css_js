@@ -1,1 +1,16 @@
+body {
+  margin: 0;
+}
 
+div {
+  background-color: green;
+  border: 20px solid black;
+  padding: 15px;
+  margin: 30px;
+  width: 200px;
+  /*the default one: the dimensions apply to the content only*/
+  box-sizing: content-box;
+
+  /*the dimensions apply to the content + padding + border*/
+  /*box-sizing: border-box;*/
+}
