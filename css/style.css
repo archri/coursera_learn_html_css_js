@@ -2,17 +2,17 @@
   box-sizing: content-box;
 }
 
-div {
+#first, #second {
   background-color: green;
   border: 20px solid black;
   padding: 15px;
   width: 100px;
 }
 
-div#first {
-  margin-bottom: 20px;
+#first {
+  margin-right: 20px;
 }
 
-div#second {
-  margin-top: 50px;
+#second {
+  margin-left: 50px;
 }
