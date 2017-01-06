@@ -1,8 +1,26 @@
-div {
-  width: 700px;
-  height: 700px;
+p {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#p1 {
   background-color: wheat;
-  background-image: url("mickey.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  float: left;
+}
+
+#p2 {
+  background-color: oliveDrab;
+  float: left;
+}
+
+#p3 {
+  background-color: cornflowerBlue;
+  float: right;
+}
+
+#p4 {
+  background-color: mediumPurple;
+  float: left;
+  clear: left;
 }
