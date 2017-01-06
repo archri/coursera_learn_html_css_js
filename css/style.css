@@ -1,18 +1,8 @@
-* {
-  box-sizing: content-box;
-}
-
-#first, #second {
-  background-color: green;
-  border: 20px solid black;
-  padding: 15px;
-  width: 100px;
-}
-
-#first {
-  margin-right: 20px;
-}
-
-#second {
-  margin-left: 50px;
+div {
+  width: 700px;
+  height: 700px;
+  background-color: wheat;
+  background-image: url("mickey.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
