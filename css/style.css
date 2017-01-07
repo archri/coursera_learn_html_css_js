@@ -20,6 +20,8 @@ p {
 
 #p2 {
   background-color: oliveDrab;
+  position: absolute;
+  top: 0;
 }
 
 #p3 {
