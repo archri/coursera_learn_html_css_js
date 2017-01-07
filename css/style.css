@@ -13,6 +13,9 @@ p {
 
 #p1 {
   background-color: wheat;
+  position: relative;
+  top: 50px;
+  right: 20px;
 }
 
 #p2 {
