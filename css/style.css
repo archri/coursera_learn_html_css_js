@@ -1,33 +1,43 @@
-div#container {
-  position: relative;
-  top: 20px;
-  left: 50px;
-  background-color: lightblue;
-}
-
 p {
-  width: 50px;
-  height: 50px;
   margin: 10px;
 }
 
 #p1 {
   background-color: wheat;
-  position: relative;
-  top: 50px;
-  right: 20px;
+  width: 50%;
+  height: 50px;
 }
 
 #p2 {
   background-color: oliveDrab;
-  position: absolute;
-  top: 0;
+  width: 50px;
+  height: 50px;
 }
 
-#p3 {
-  background-color: cornflowerBlue;
+@media (min-width: 1200px) {
+  #p1 {
+    background-color: wheat;
+    width: 80%;
+    height: 150px;
+  }
+
+  #p2 {
+    background-color: oliveDrab;
+    width: 200px;
+    height: 200px;
+  }
 }
 
-#p4 {
-  background-color: mediumPurple;
+@media (min-width: 992px) and (max-width: 1199px) {
+  #p1 {
+    background-color: wheat;
+    width: 65%;
+    height: 100px;
+  }
+
+  #p2 {
+    background-color: oliveDrab;
+    width: 100px;
+    height: 100px;
+  }
 }
