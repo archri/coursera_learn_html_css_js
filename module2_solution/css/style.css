@@ -1,0 +1,65 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+
+div {
+  border: 1px solid black;
+}
+
+div.section {
+  position: relative;
+  padding: 50px 20px 20px 20px;
+  background-color: lightgrey;
+  margin: 1%;
+}
+
+div.title {
+  font-size: 125%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 20px;
+}
+
+#nuts > .title {
+  background-color: tan;
+}
+
+#vegetables > .title {
+  background-color: seagreen;
+}
+
+#fruits > .title {
+  background-color: sandybrown;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 31.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 98%;
+  }
+}
