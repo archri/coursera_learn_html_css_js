@@ -1,15 +1,8 @@
-function a () {
-  return {
-    result: "true"
-  };
+function a() {
+  var i = 5;
+  console.log(i);
+  for (var i = 0; i < 10; i ++) {
+    console.log(i);
+  }
 }
-console.log(a());
-
-function b()
-{
-  return
-  {
-    result: "true"
-  };
-}
-console.log(b());
+a();
