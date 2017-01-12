@@ -1,3 +1,8 @@
-#chicken-section {
-  background-color: beige;
+section {
+  padding: 15px;
+}
+section > div {
+    background-color: beige;
+    padding: 15px;
+  }
 }
