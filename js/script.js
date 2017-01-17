@@ -1,8 +1,9 @@
-var a = new Object();
-a["b property"] = "b prop";
-// a.b property = "b prop"; - INVALID
+// function factory
+function multiplier(factor) {
+  return function(y) {
+    return factor * y;
+  }
+}
 
-console.log(a);
-console.log(a["b property"]);
-
-// console.log(a.b property); - INVALID
+var multiplyBy4 = multiplier(4);
+console.log(multiplyBy4(7));
