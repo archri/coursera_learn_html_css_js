@@ -1,8 +1,14 @@
-function a() {
-  var i = 5;
-  console.log(i);
-  for (var i = 0; i < 10; i ++) {
-    console.log(i);
-  }
+function Hristo() {
+  this.hair = "dark";
+  this.eyes = "green";
 }
-a();
+
+Hristo.prototype.smile =
+  function() {
+    console.log(":)");
+  };
+
+var hristo = new Hristo();
+console.log(hristo.eyes);
+hristo.smile();
+console.log(hristo);
