@@ -1,9 +1,8 @@
-var a = [
-  "hristo",
-  "svetla"
-];
-a[30] = "nqkoi";
+(function() {
+  var a = "Hello ";
+  var name = "Hristo";
+  window.name = name;
+})();
 
-for(var i = 0; i < a.length; i++) {
-  console.log(a[i]);
-}
+console.log(a);
+console.log(name);
